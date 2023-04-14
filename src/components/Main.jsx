@@ -1,17 +1,16 @@
 import React from 'react'
 import styles  from '../style'
 
+import Scudetto from '../assets/scudetto.svg';
 
 
 const Main = () => (
-
-  <section id='home' className={`flex md:flex-row flex-col ${styles.paddingY}`}>
-    <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
-      <div className='flex flex-row items-cente py-[6px] px-4 bg-discount-gradient mb-2'></div>
+  <div className='w-full py-2'>
+    <img src={Scudetto} alt="" className=' mx-auto flex-justify-center  w-[25%] h-[25%]' />
+    <div className='text-center font-bold font-poppins text-4xl py-4'>
+        <h1>Team Formula student di Unict</h1>
     </div>
-  </section>
-
-
+  </div>
 )
 
 export default Main 
