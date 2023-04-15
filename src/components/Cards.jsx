@@ -6,7 +6,7 @@ import Meccanica_logo from '../assets/meccanica_logo.svg';
 
 const Cards  = () => (
     <div className=' w-full py-[5rem] bg-white'>
-        <div className='mx-auto grid grid-cols-4 gap-5 ' >
+        <div className='mx-auto grid grid-cols-2 gap-5 sm:grid-cols-4 ' >
             <div className=' w-full shadow-2xl border flex-col p-4 rounded-lg hover:scale-110 duration-500'>
                 <img className='w-[100%] h-[100%] object-contain mx-auto mt-[-3rem] bg-white' src={Elettrica_logo} alt="logo_elettrica" />
                 <h1 className=' text-2xl font-poppins font-bold' >Elettronica</h1>
