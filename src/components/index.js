@@ -13,3 +13,5 @@ export{
     Cards,
     NewsProject,
 };
+
+// < LogoComponent color={props}/>
