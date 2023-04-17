@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './style'
 import { Navbar , Main, Footer , Button , NewsProject, Cards } from './components'
 
+
+
 const App = () => (
   <div className="bg-withe w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
