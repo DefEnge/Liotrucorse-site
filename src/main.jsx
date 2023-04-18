@@ -10,27 +10,27 @@ import './index.css'
 
 const router = createBrowserRouter([
   {
-    path: "/Liotrucorse-site",
+    path: "/Liotrucorse-site/",
     element: <App/> ,
   },
 
   {
-    path: "Divisione_Elettronica",
+    path: "/Liotrucorse-site/Divisione_Elettronica",
     element: <Page_Elettronica/>,
   },
 
   {
-    path: "Divisione_Meccanica",
+    path: "/Liotrucorse-site/Divisione_Meccanica",
     element: <Page_Meccanica/>,
   },
 
   {
-    path: "Divisione_Informatica",
+    path: "/Liotrucorse-site/Divisione_Informatica",
     element: <Page_Informatica/>,
   },
 
   {
-    path: "Divisione_Management",
+    path: "/Liotrucorse-site/Divisione_Management",
     element: <Page_Management/>,
   },
 
