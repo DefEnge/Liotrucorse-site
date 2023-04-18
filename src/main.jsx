@@ -15,7 +15,7 @@ const router = createHashRouter([
   },
 
   {
-    path: "/Liotrucorse-site/Divisione_Elettronica",
+    path: "/Liotrucorse-site/#/Divisione_Elettronica",
     element: <Page_Elettronica/>,
   },
 
