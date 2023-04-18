@@ -30,28 +30,27 @@ const Cards  = () => (
             </div>
         </div>
 
-        <div className='w-full flex xs:hidden'>
-            <div className='px-[4rem]'>
-                <div className='flex shadow rounded-lg items-center w-[110%] my-[2rem]s'>
+        <div className='w-full flex  justify-center xs:hidden'>
+            <div>
+                <div className='flex shadow rounded-lg items-center w-[110%] my-[2rem]s hover:scale-110 duration-500'>
                     <img src={Elettrica_logo} alt="Elettrica_logo"/>
                     <h1 className='font-poppins font-medium'>Elettronica</h1>
                 </div>
             
-                <div className='flex shadow rounded-lg items-center w-[110%] my-[2rem]'>
+                <div className='flex shadow rounded-lg items-center w-[110%] my-[2rem] hover:scale-110 duration-500'>
                     <img src={Meccanica_logo} alt="Meccanica_logo" />
                     <h1 className='font-poppins font-medium'>Meccanica</h1>
                 </div>
 
-                <div className='flex shadow rounded-lg items-center w-[110%] my-[2rem]'>
+                <div className='flex shadow rounded-lg items-center w-[110%] my-[2rem] hover:scale-110 duration-500'>
                     <img src={Informatica_logo} alt="Informatica_logo" />
                     <h1 className='font-poppins font-medium'>Informatica</h1>
                 </div>
 
-                <div className='flex shadow rounded-lg items-center w-[110%] my-[2rem]'>
+                <div className='flex shadow rounded-lg items-center w-[110%] my-[2rem] hover:scale-110 duration-500'>
                     <img src={Management_logo}  alt="Management_logo"/>    
                     <h1 className='font-poppins font-medium text-center'>Management</h1>
                 </div>
-                
             </div>
         </div>
 
