@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App';
-import {  Route, Routes, HashRouter } from "react-router-dom" ;
+import { createHashRouter, RouterProvider, HashRouter } from "react-router-dom" ;
 
 import { Page_Elettronica, Page_Meccanica, Page_Informatica, Page_Management } from './components';
 
 
 import './index.css'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/Liotrucorse-site/",
     element: <App/> ,
