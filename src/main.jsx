@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App';
-import { createHashRouter, RouterProvider} from "react-router-dom" ;
+import { HashRouter, createHashRouter, RouterProvider} from "react-router-dom" ;
 
 import { Page_Elettronica, Page_Meccanica, Page_Informatica, Page_Management } from './components';
 
@@ -38,6 +38,8 @@ const router = createHashRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router}></RouterProvider>
+    <HashRouter basename={"/Liotrucorse-site"}>
+      <RouterProvider router={router}></RouterProvider>
+    </HashRouter>
   </React.StrictMode>
 );
