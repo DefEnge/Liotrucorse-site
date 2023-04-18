@@ -31,7 +31,7 @@ const Cards  = () => (
         </div>
 
         <div className='w-full flex xs:hidden'>
-            <div className='px-[8rem]'>
+            <div className='px-[4rem]'>
                 <div className='flex shadow rounded-lg items-center w-[110%] my-[2rem]s'>
                     <img src={Elettrica_logo} alt="Elettrica_logo"/>
                     <h1 className='font-poppins font-medium'>Elettronica</h1>
