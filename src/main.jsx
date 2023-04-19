@@ -11,7 +11,7 @@ import './index.css'
 const router = createHashRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <App/>,
     loader: rootLoader,
     children: [
       {
