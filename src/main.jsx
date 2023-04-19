@@ -15,7 +15,7 @@ const router = createHashRouter([
   },
 
   {
-    path: "/*/Divisione_Elettronica",
+    path: "*/Divisione_Elettronica",
     element: <Page_Elettronica/>,
   },
 
