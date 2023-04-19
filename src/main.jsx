@@ -10,30 +10,17 @@ import './index.css'
 
 const router = createHashRouter([
   {
-    path: "/*",
-    element: <App/> ,
+    path: "/",
+    element: <Root />,
+    loader: rootLoader,
+    children: [
+      {
+        path: "DivisioneElettronica",
+        element: <Page_Elettronica />,
+        loader: PageElettronicaLoader,
+      },
+    ],
   },
-
-  {
-    path: "/*",
-    element: <Page_Elettronica/>,
-  },
-
-  {
-    path: "/*/Divisione_Meccanica",
-    element: <Page_Meccanica/>,
-  },
-
-  {
-    path: "/*/Divisione_Informatica",
-    element: <Page_Informatica/>,
-  },
-
-  {
-    path: "/*/Divisione_Management",
-    element: <Page_Management/>,
-  },
-
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
