@@ -12,12 +12,10 @@ const router = createHashRouter([
   {
     path: "/",
     element: <App/>,
-    loader: rootLoader,
     children: [
       {
         path: "DivisioneElettronica",
         element: <Page_Elettronica />,
-        loader: PageElettronicaLoader,
       },
     ],
   },
