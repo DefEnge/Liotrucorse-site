@@ -15,22 +15,22 @@ const router = createHashRouter([
   },
 
   {
-    path: "/Liotrucorse-site/Divisione_Elettronica",
+    path: "/*/Divisione_Elettronica",
     element: <Page_Elettronica/>,
   },
 
   {
-    path: "/Liotrucorse-site/Divisione_Meccanica",
+    path: "/*/Divisione_Meccanica",
     element: <Page_Meccanica/>,
   },
 
   {
-    path: "/Liotrucorse-site/Divisione_Informatica",
+    path: "/*/Divisione_Informatica",
     element: <Page_Informatica/>,
   },
 
   {
-    path: "/Liotrucorse-site/Divisione_Management",
+    path: "/*/Divisione_Management",
     element: <Page_Management/>,
   },
 
