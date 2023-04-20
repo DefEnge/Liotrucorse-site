@@ -1,45 +1,25 @@
 import React from 'react'
 import styles from './style'
-import { Navbar , Main, Footer , Button , NewsProject, Cards } from './components'
+import { Navbar , Main, Page_Elettronica, Page_Informatica, Page_Meccanica, Page_Management} from './components'
 
+import {HashRouter, Route, Routes} from 'react-router-dom' ; 
 
 
 const App = () => (
-  <div className="bg-withe w-full overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Navbar></Navbar>
-      </div>
-    </div>
+  <HashRouter basename='/'>
+    <Routes>
+      <Route exact path ="/" Component={Main}></Route>
+      <Route exact path ="/DivisioneElettronica" Component={Page_Elettronica}></Route>
+      <Route exact path ="/DivisioneInformatica" Component={Page_Informatica}></Route>
+      <Route exact path ="/DivisionMeccanica" Component={Page_Meccanica}></Route>
+      <Route exact path ="/DivisioneManagement" Component={Page_Management}></Route>
 
-    <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Main></Main>
-      </div>
-    </div>
-  
+      
 
-    <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Cards></Cards>
-      </div>
-    </div>
-     
-    <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <NewsProject></NewsProject>
-      </div>
-    </div>
+      
 
-
-    <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Footer></Footer>
-      </div>
-    </div>
-  
-  
-  </div>
+  </Routes>
+  </HashRouter>
 )
 
 export default App 
