@@ -1,14 +1,38 @@
 import React from 'react'
 import styles  from '../style'
 
-import Scudetto from '../assets/scudetto.svg';
+import Navbar from './Navbar';
+import Cards from './Cards';
+import NewsProject from './NewsProject';
+import Footer from './Footer';
+
 
 
 const Main = () => (
-  <div className='w-full py-2'>
-    <img src={Scudetto} alt="" className=' mx-auto flex-justify-center  w-[25%] h-[25%]' />
-    <div className='text-center font-bold font-poppins text-4xl py-4'>
-        <h1>Team Formula student di Unict</h1>
+  <div className="bg-withe w-full overflow-hidden">
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Navbar></Navbar>
+      </div>
+    </div>
+    
+    <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Cards></Cards>
+      </div>
+    </div>
+     
+    <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <NewsProject></NewsProject>
+      </div>
+    </div>
+
+
+    <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Footer></Footer>
+      </div>
     </div>
   </div>
 )

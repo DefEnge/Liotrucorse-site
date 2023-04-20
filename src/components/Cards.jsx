@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Elettronica_logo from '../assets/elettrica_logo.svg';
 import Informatica_logo from '../assets/informatica_logo.svg';
 import Management_logo from '../assets/management_logo.svg';
@@ -10,7 +11,7 @@ const Cards  = () => (
        <div className='hidden xs:py-[5rem] xs:flex'>
             <div className='mx-auto grid grid-cols-2 gap-5 sm:grid-cols-4 ' >
                 
-                <a href = {`DivisioneElettronica`}>
+                <a href = "#/DivisioneElettronica">
                 <div className=' w-full shadow-2xl flex-col p-[4rem] sm:p-4 rounded-lg hover:scale-110 duration-500 '>
                     <img className='w-[100%] h-[100%] object-contain mx-auto mt-[-3rem]' src={Elettronica_logo} alt="logo_elettronica" />
                     <h1 className=' text-xl font-poppins font-bold' >Elettronica</h1>
