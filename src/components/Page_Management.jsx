@@ -1,7 +1,9 @@
 import React from 'react'
 
 const Page_Management = () => (
-    <div>Management</div>
+    <div>
+
+    </div>
   )
 
 export default Page_Management

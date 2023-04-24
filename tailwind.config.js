@@ -13,6 +13,10 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      backgroundImage: {
+      'Chess-pattern' : "url('src/assets/chess-flag.svg')",
+       'Gradient-image' : "url('src/assets/black-bg.svg')",     
+      },
     },
     screens: {
       xs: "480px",

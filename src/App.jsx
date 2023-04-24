@@ -1,6 +1,5 @@
 import React from 'react'
-import styles from './style'
-import { Navbar , Main, Page_Elettronica, Page_Informatica, Page_Meccanica, Page_Management} from './components'
+import {Main, Page_Elettronica, Page_Informatica, Page_Meccanica, Page_Management} from './components'
 
 import {HashRouter, Route, Routes} from 'react-router-dom' ; 
 
