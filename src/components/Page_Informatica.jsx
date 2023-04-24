@@ -1,7 +1,11 @@
 import React from 'react'
+import Navbar from './Navbar'
+
 
 const Page_Informatica = () => (
-    <div>Informatica</div>
+    <div>
+      <Navbar></Navbar>
+    </div>
   )
 
 export default Page_Informatica
