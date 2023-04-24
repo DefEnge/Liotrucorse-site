@@ -1,8 +1,11 @@
 import React from 'react'
-
+import Navbar from './Navbar'
 
 const Page_Elettronica = () => (
-    <div>Elettronica</div>
+    <div>
+      <Navbar></Navbar>
+
+    </div>
   )
 
 
