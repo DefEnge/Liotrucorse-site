@@ -1,30 +1,30 @@
 export const data = [
 
     {
-        image: '/src/assets/scudetto.svg'
+        image: '../scudetto.svg'
 
     },
 
 
     {
-        image: 'src/assets/unict-liotrucorse-logo.svg'
+        image: '../unict-liotrucorse-logo.svg'
 
     },
 
 
     {
-        image: 'macchina.jpg'
+        image: './macchina.jpg'
 
     },
 
 
     {
-        image: 'man-riding-mountain-bike-close-up.jpg'
+        image: './man-riding-mountain-bike-close-up.jpg'
 
     },
 
     {
-        image: 'shiny-night-city.jpg'
+        image: './shiny-night-city.jpg'
     },
 
 ]
