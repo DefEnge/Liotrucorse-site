@@ -21,22 +21,30 @@ const  Hero = () =>{
   
 
  return (
-  <section className=' justify-center items-center'>
+  <section className='  justify-center items-center'>
     
-    <div className=' justify-center items-center'>
-      <button onClick={prevslide} className=' ' ><img src={arrowleft} alt="" /></button>
-      <button onClick={nextslide} className=' '><img src={arrowright} alt="" /></button>
-    </div>
    
     
   {data.map((slide , index) => {
-    return(
-      <div className={index === current  ? ' slide active' : 'slide'} key={index}>
-        {index === current && (<img src={slide.image} alt="" className=' sm:w-[500px] sm:h-[300px] ' />)}
+        return(
+    <div className={` ${index === current  ? ' slide active' : 'slide'} flex justify-center items-center `}   >
+        {index === current && (<img src={slide.image} alt="" className=' sm:w-[500px] sm:h-[300px] rounded-xl' />)}
         
       </div>
     )
   })}
+
+    <div className=' flex justify-center items-center py-5'>
+      
+      <div className='justify-center items-center '>
+      <button onClick={prevslide} className='justify-center items-center ' ><img src={arrowleft} alt="" /></button>
+      </div>
+      
+      <div className='justify-center items-center'>
+      <button onClick={nextslide} className=' '><img src={arrowright} alt="" /></button>
+      </div>
+
+    </div>
 
 
   </section>
