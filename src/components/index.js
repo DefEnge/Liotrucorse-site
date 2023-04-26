@@ -9,7 +9,7 @@ import Contactmain from "./Contactmain";
 import ContactsPage from "./ContactsPage";
 import NewsPage from "./NewsPage";
 import ProjectPage from "./ProjectPage";
-import HistoryPage from "./Historypage";
+import HistoryPage from "./HistoryPage";
 import Page_Management from "./Page_Management";
 import Page_Informatica from "./Page_Informatica";
 import Page_Meccanica from "./Page_Meccanica";
