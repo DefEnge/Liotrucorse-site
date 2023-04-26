@@ -11,7 +11,6 @@ export const data = [
         image: img2
     },
     
-
     {
         image: img3
     }
