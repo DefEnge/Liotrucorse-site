@@ -3,13 +3,18 @@ import Main from "./Main";
 import Hero from "./Hero";
 import Button from "./Button";
 import Footer from "./Footer";
-import NewsProject from "./NewsProject";
+import NewsHero from "./NewsHero";
 import Cards from "./Cards";
 import Contactmain from "./Contactmain";
+import ContactsPage from "./ContactsPage";
+import NewsPage from "./NewsPage";
+import ProjectPage from "./ProjectPage";
+import HistoryPage from "./Historypage";
 import Page_Management from "./Page_Management";
 import Page_Informatica from "./Page_Informatica";
 import Page_Meccanica from "./Page_Meccanica";
 import Page_Elettronica from "./Page_Elettronica";
+
 
 export{
     Navbar,
@@ -18,8 +23,12 @@ export{
     Button,
     Footer,
     Cards,
-    NewsProject,
+    NewsHero,
     Contactmain,
+    ContactsPage,
+    NewsPage,
+    ProjectPage,
+    HistoryPage,
     Page_Elettronica,
     Page_Management,
     Page_Informatica,

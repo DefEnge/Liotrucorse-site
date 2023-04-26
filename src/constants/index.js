@@ -1,11 +1,11 @@
 //TO DO put asset on logo for navbar
 export const navLinks = [
     {
-        id:"home",
+        id:"",
         title:"Home",
     },
     {
-        id:"news",
+        id:"News",
         title:"News",
     },
     {
@@ -13,11 +13,11 @@ export const navLinks = [
         title:"Contacts",
     },
     {
-        id:"project", 
+        id:"Project", 
         title: "Project", 
     },
     {
-        id:"history",
+        id:"History",
         title:"History",
     },
 ]
