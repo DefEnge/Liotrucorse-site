@@ -3,7 +3,7 @@ import styles from '../style'
 
 import arrowleft from '../assets/arrow left.svg'
 import arrowright from '../assets/arrow right.svg'
-import {data} from '../assets/image/index.js'
+import { data } from '../assets/image/index.js'
 
 
 const  Hero = () =>{  
