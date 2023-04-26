@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-
+import styles from '../style'
 
 const Page_Informatica = () => (
   <div className="bg-withe w-full overflow-hidden">
