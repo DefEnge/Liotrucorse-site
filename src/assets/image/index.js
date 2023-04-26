@@ -1,30 +1,19 @@
+import img1 from "./bici.jpg"
+import img2 from "./city.jpg"
+import img3 from "./macchina.jpg"
+
 export const data = [
-
     {
-        image: '/src/assets/scudetto.svg'
-
-    },
-
-
-    {
-        image: 'src/assets/unict-liotrucorse-logo.svg'
-
-    },
-
-
-    {
-        image: 'src/assets/image/macchina.jpg'
-
-    },
-
-
-    {
-        image: 'src/assets/image/man-riding-mountain-bike-close-up.jpg'
-
+        image: img1
     },
 
     {
-        image: 'src/assets/image/shiny-night-city.jpg'
+        image: img2
     },
+    
 
+    {
+        image: img3
+    }
+    
 ]
