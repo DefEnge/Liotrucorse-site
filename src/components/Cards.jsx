@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Elettronica_logo from '../assets/elettrica_logo.svg';
 import Informatica_logo from '../assets/informatica_logo.svg';
 import Management_logo from '../assets/management_logo.svg';
@@ -9,8 +8,8 @@ const Cards  = () => (
     
     <div className=' w-full '>
             
-            <div className=' justify-center items-center  flex'>
-                <h1 className=' text-5xl font-poppins font-bold '>Liotru Corse EV team</h1>
+            <div className=' py-5 justify-center items-center  flex'>
+                <h1 className='sm:text-4xl md:text-5xl font-poppins font-bold text-xl  '>Liotru Corse EV team</h1>
             </div>
     
        <div className='hidden xs:py-[5rem] xs:flex'>

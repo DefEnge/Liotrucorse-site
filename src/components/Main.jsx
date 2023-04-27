@@ -19,15 +19,16 @@ const Main = () => (
       </div>
     </div>
     
-    <div className={` bg-white ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Hero></Hero>
-      </div>
-    </div>
     
     <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth} `}>
         <Cards></Cards>
+      </div>
+    </div>
+   
+    <div className={` bg-white ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Hero></Hero>
       </div>
     </div>
      
@@ -43,7 +44,7 @@ const Main = () => (
       </div>
     </div>
 
-    <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-black ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Footer></Footer>
       </div>
