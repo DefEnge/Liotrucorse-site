@@ -27,8 +27,8 @@ const  Hero = () =>{
     
   {data.map((slide , index) => {
         return(
-    <div className={` ${index === current  ? ' slide active' : 'slide'} flex justify-center items-center `}   >
-        {index === current && (<img src={slide.image} alt="" className=' md:w-[60%] md:h-[50%] md:py-5 sm:w-[500px] sm:h-[300px] sm:rounded-[0.75rem] md:rounded-[5rem] ' />)}
+    <div className={` ${index === current  ? ' slide active' : 'slide'} flex justify-center items-center  `}   >
+        {index === current && (<img src={slide.image} alt="" className=' md:w-[60%] md:h-[50%] md:py-5 sm:w-[500px] sm:h-[300px] sm:rounded-[0.75rem] md:rounded-[5rem] rounded-lg  ' />)}
         
       </div>
     )
