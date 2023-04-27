@@ -8,7 +8,13 @@ import Meccanica_logo from '../assets/meccanica_logo.svg';
 const Cards  = () => (
     
     <div className=' w-full '>
+            
+            <div className=' justify-center items-center  flex'>
+                <h1 className=' text-5xl font-poppins font-bold '>Liotru Corse EV team</h1>
+            </div>
+    
        <div className='hidden xs:py-[5rem] xs:flex'>
+
             <div className='mx-auto grid grid-cols-2 gap-5 sm:grid-cols-4 ' >
                 
                 <a href = {`#/DivisioneElettronica`}>
