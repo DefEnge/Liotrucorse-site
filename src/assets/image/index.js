@@ -1,6 +1,6 @@
-import img1 from "./bici.jpg"
-import img2 from "./city.jpg"
-import img3 from "./macchina.jpg"
+import img1 from "../Logo.svg"
+import img2 from "../Logo.svg"
+import img3 from "../Logo.svg"
 
 export const data = [
     {
