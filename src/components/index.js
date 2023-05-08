@@ -6,10 +6,9 @@ import Footer from "./Footer";
 import NewsHero from "./NewsHero";
 import Cards from "./Cards";
 import Contactmain from "./Contactmain";
-import ContactsPage from "./ContactsPage";
 import NewsPage from "./NewsPage";
 import ProjectPage from "./ProjectPage";
-import HistoryPage from "./HistoryPage";
+import JoinUsPage from "./JoinUsPage";
 import Page_Management from "./Page_Management";
 import Page_Informatica from "./Page_Informatica";
 import Page_Meccanica from "./Page_Meccanica";
@@ -25,10 +24,9 @@ export{
     Cards,
     NewsHero,
     Contactmain,
-    ContactsPage,
     NewsPage,
     ProjectPage,
-    HistoryPage,
+    JoinUsPage,
     Page_Elettronica,
     Page_Management,
     Page_Informatica,

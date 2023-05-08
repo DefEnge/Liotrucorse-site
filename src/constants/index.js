@@ -9,15 +9,11 @@ export const navLinks = [
         title:"News",
     },
     {
-        id:"Contacts",
-        title:"Contacts",
-    },
-    {
         id:"Project", 
         title: "Project", 
     },
     {
-        id:"History",
-        title:"History",
+        id:"JoinUs",
+        title:"Join Us",
     },
 ]
