@@ -44,13 +44,13 @@ const  Footer = () =>  (
           Useful links
         </h6>
         <p class="mb-4">
-          <a href="#!" class="text-neutral-600 dark:text-neutral-200">Home</a>
+          <a href="#/" class="text-neutral-600 dark:text-neutral-200">Home</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-neutral-600 dark:text-neutral-200">News</a>
+          <a href="#/News" class="text-neutral-600 dark:text-neutral-200">News</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-neutral-600 dark:text-neutral-200">Projects</a>
+          <a href="#/Project" class="text-neutral-600 dark:text-neutral-200">Projects</a>
         </p>
         <p>
           <a href="#!" class="text-neutral-600 dark:text-neutral-200">Contacts</a>
