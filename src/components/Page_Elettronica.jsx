@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import styles from '../style'
+import Footer from './Footer'
 
 const Page_Elettronica = () => (
   <div className="bg-white w-full overflow-hidden">
