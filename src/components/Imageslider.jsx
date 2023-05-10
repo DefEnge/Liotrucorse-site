@@ -6,7 +6,7 @@ import arrowright from '../assets/arrow right.svg'
 import { data } from '../assets/image/index.js'
 
 
-const  Hero = () =>{  
+const  Imageslider = () =>{  
  
   const [current, setcurrent] = useState(0)
   const lenght = data.length
@@ -51,4 +51,4 @@ const  Hero = () =>{
 
 );};
 
-export default Hero
+export default Imageslider

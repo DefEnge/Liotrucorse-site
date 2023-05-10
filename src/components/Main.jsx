@@ -2,7 +2,7 @@ import React from 'react'
 import styles  from '../style'
 
 import Navbar from './Navbar';
-import Hero from './Hero';
+import Imageslider from './Imageslider';
 import Cards from './Cards';
 import NewsHero from './NewsHero';
 import Footer from './Footer';
@@ -21,7 +21,7 @@ const Main = () => (
     
     <div className={` bg-white ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Hero></Hero>
+        <Imageslider></Imageslider>
       </div>
     </div>
      
