@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import Main from "./Main";
-import Hero from "./Hero";
+import Imageslider from "./Imageslider";
 import Button from "./Button";
 import Footer from "./Footer";
 import NewsHero from "./NewsHero";
@@ -18,7 +18,7 @@ import Page_Elettronica from "./Page_Elettronica";
 export{
     Navbar,
     Main,
-    Hero,
+    Imageslider,
     Button,
     Footer,
     Cards,
