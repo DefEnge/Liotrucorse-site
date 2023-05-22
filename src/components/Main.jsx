@@ -3,10 +3,10 @@ import styles  from '../style'
 
 import Navbar from './Navbar';
 import Imageslider from './Imageslider';
-import Cards from './Cards';
 import NewsHero from './NewsHero';
 import Footer from './Footer';
 import Contactmain from './Contactmain';
+import ObjectiveOverview from './ObjectiveOverview';
 
 
 
@@ -24,7 +24,14 @@ const Main = () => (
         <Imageslider></Imageslider>
       </div>
     </div>
-     
+
+    <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <ObjectiveOverview></ObjectiveOverview>
+      </div>
+    </div>
+
+
     <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <NewsHero></NewsHero>
