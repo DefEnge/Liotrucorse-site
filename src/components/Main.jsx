@@ -63,7 +63,13 @@ const Main = () => (
       </div>
     </div>
 
-    <div className={`bg-black ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`${styles.paddingX} ${styles.paddingY} ${styles.flexCenter} `} >
+        <div className={`${styles.boxWidth} ${styles.flexCenter}`}>
+          <h1 className=" text-4xl font font-extrabold">Work in progress! Stay tuned!</h1>
+        </div>
+    </div>
+
+    <div className={`bg-black ${styles.paddingX}  ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Footer></Footer>
       </div>
